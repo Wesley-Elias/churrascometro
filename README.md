@@ -18,7 +18,6 @@
   <a href="#hammer_and_wrench-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#camera_flash-imagens-da-aplicação">Imagens da Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-rodando-a-aplicação">Rodando a Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#desktop_computer-deploy-da-aplicação">Deploy da Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#thought_balloon-inspiração">Inspiração</a>
 </p>
 
