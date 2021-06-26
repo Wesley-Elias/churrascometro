@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Churrascômetro</title>
+
+  <link rel="shortcut icon" href="images/brochette.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ewert&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <section class="hero">
+    <div class="container">
+      <h1 class="title">Churrascômetro</h1>
+
+      <p class="description">
+        Evite gastos e saiba quanto de carne e bebidas você prescisa para seu churrasco!
+      </p>
+
+      <div class="form">
+        <label for="adultsDrinkBeer">Quantos adultos vão beber cerveja?</label>
+        <input type="number" id="adultsDrinkBeer" name="adultsDrinkBeer">
+
+        <label for="adultsDrinkSoda">Quantos adultos não vão beber cerveja?</label>
+        <input type="number" id="adultsDrinkSoda" name="adultsDrinkSoda">
+
+        <label for="childrens">Quantas crianças vão ao churrasco?</label>
+        <input id="childrens" name="childrens" type="number">
+
+        <label for="duration">Quanto tempo vai durar o churrasco?</label>
+        <input id="duration" name="duration" type="number">
+
+        <button class="btn calculate" onclick="calculate()">Calcular quantidade de carne e bebidas</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal-overlay">
+    
+  </div>
+ 
+  <script src="js/script.js"></script>
+</body>
+
+</html>
